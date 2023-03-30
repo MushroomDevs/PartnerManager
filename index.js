@@ -5,10 +5,10 @@ const fs = require('fs');
 const client = new Client()
 
 // Définir les identifiants des salons à envoyer les messages
-const channels = ['946242935324823553', '755523801931841700', '1020787601906610234', '1068844787660242974', '1083259210961268806', '991272988467011695', '976442714512052234', '951784748483772426', '1069999627069304963', '1068801298671079527', '1063765732707549234', '1071780449015304202', '1085694474010763356', '1054234395059437598', '1075811582489149582', '1088556163156688966', '1023245554303651961']
+const channels = ['946242935324823553', '755523801931841700', '1020787601906610234', '1068844787660242974', '1083259210961268806', '991272988467011695', '976442714512052234', '951784748483772426', '908104160908550164', '1069999627069304963', '1068801298671079527', '1063765732707549234', '1071780449015304202', '1054234395059437598', '1075811582489149582', '1088556163156688966', '1023245554303651961']
 
 // Liste des fichiers à envoyer dans chaque canal
-const messageFiles = ['./ayuji.txt', './mizushi.txt', './miruki.txt', './kyushu.txt', './akina.txt', './SNK.txt', './lesrenards.txt', './ayume.txt', './komi.txt', './sakana.txt', './hinami.txt', './nymphea.txt', './teyvat.txt', './romance.txt', './snk2.txt', './fuyu.txt', './mayko.txt', './kaori.txt']
+const messageFiles = ['./ayuji.txt', './mizushi.txt', './miruki.txt', './kyushu.txt', './akina.txt', './SNK.txt', './lesrenards.txt', './ayume.txt', './komi.txt', './sakana.txt', './nymphea.txt', './teyvat.txt', './romance.txt', './snk2.txt', './fuyu.txt', './mayko.txt', './yukiria.txt', './kaori.txt']
 
 // Object contenant les messages déjà postés dans les canaux
 const sentMessages = {}
