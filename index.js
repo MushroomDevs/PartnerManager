@@ -52,7 +52,7 @@ client.once('ready', () => {
         channels.forEach(channelId => {
             const channel = client.channels.cache.get(channelId)
             if (!channel) {
-                console.log(`Salon non trouvé ${channel.name} | ${channel.id} | ${channel.guild.name}`)
+                console.log(`Salon non trouvé ${channel.id}`)
                 return;
             }
             messageFiles.forEach(file => {
@@ -66,7 +66,7 @@ client.once('ready', () => {
         channels.forEach(channelId => {
             const channel = client.channels.cache.get(channelId)
             if (!channel) {
-                console.log(`Salon non trouvé ${channel.name} | ${channel.id} | ${channel.guild.name}`)
+                console.log(`Salon non trouvé ${channel.id}`)
                 return;
             }
             messageFiles.forEach(file => {
